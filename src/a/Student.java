@@ -14,7 +14,7 @@ public class Student {
 		engScore = eng;
 	}
 	double getAvg() {
-		double avg = mathScore + engScore / 2.0;
+		double avg = (mathScore + engScore) / 2.0;
 		return avg;
 	}
 }
