@@ -9,6 +9,5 @@ public class E27{
 		Foon obj = new Foon();
 		String ppp = obj.apply("ふうううん");
 		System.out.println(ppp);
-		
 	}
 }
