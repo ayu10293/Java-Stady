@@ -1,11 +1,23 @@
 package exa;
 
+class A{
+	public void h() {
+		System.out.println("hello");
+	}
+	public void b() {
+		System.out.println("byeeeeeeee");
+	}
+}
+
+class V extends A{
+	public void b() {
+		System.out.println("bye");
+	}
+}
+
 public class X100 {
-void methodA() throws Exception {}
-void methodB() throws RuntimeException{}
-	public static void main(String[] args) throws Exception{
-		X100 obj = new X100();
-		obj.methodA();
-		obj.methodB();
+	public static void main(String[] args) {
+		A a = new V();
+		a.b();
 	}
 }
